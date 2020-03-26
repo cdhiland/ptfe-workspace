@@ -1,7 +1,7 @@
 # Provider Credentials can be loaded via
-#export VSPHERE_SERVER="192.168.169.11"
-#export VSPHERE_USER="charles@vsphere.local"
-#export VSPHERE_PASSWORD="P@ssw0rd01"
+export VSPHERE_SERVER="192.168.169.11"
+export VSPHERE_USER="charles@vsphere.local"
+export VSPHERE_PASSWORD="P@ssw0rd01"
 provider "vsphere" {
   allow_unverified_ssl = true
 }
