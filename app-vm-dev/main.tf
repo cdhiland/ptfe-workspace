@@ -1,7 +1,7 @@
 # Provider Credentials can be loaded via
-# export VSPHERE_SERVER=""
-# export VSPHERE_USER=""
-# export VSPHERE_PASSWORD=""
+variable VSPHERE_SERVER = ""
+variable VSPHERE_USER = ""
+variable VSPHERE_PASSWORD= ""
 provider "vsphere" {
   allow_unverified_ssl = true
 }
