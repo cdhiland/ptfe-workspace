@@ -1,4 +1,7 @@
 # Provider Credentials can be loaded via
+variable VSPHERE_PASSWORD
+variable VSPHERE_USER
+variable VSPHERE_SERVER
 # export VSPHERE_SERVER=""
 # export VSPHERE_USER=""
 # export VSPHERE_PASSWORD=""
